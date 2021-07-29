@@ -1,0 +1,21 @@
+.table {
+    margin-top: 20px;
+    /*makes the table scrollable once the height beyond 400px*/
+    overflow: scroll;
+    height: 400px;
+    color: #695d5d;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.5rem;
+}
+
+/*Every all odd index be gray*/
+.table tr:nth-of-type(odd) {
+    background-color: #f3f2f8;
+}
